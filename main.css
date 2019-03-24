@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('assets/photo-1464618663641-bbdd760ae84a.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+* {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  width: 480px;
+  max-width: calc (100vw-10px);
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  border-radius: 10px;
+ }
+.head, .content  {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  color: rgb(2, 27, 68);
+}
+h1 {
+  font-weight: bold;
+  font-size: 2em;
+  padding: 15px;
+}
+h2  {
+  font-size: -0,5em;
+}
+img {
+  width: 200px;
+  height:225px;
+  border-radius: 10%;
+  padding: 10px;
+}
+.about {
+  font-weight: bold;
+  padding: 10px;
+}
+.study {
+  font-size: -10%;
+}
+.interest {
+  font-size: 80%;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+  color: blue;
+}
+li:hover {
+  color:darkviolet;
+}
+a:hover {
+  color:darkmagenta;
+} 
+.email {
+  text-decoration: underline;
+  color: blue;
+  font-weight: bold;
+}
+.email:hover {
+    color: darkviolet;
+}
+img:hover {
+  transform: scale(1.3);
+  transition: all 0.5s ease-in-out;
+  border-radius: 50%;
+}
