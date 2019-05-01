@@ -54,10 +54,10 @@ ul {
 }
 li {
   display: inline;
-  color: blue;
+  color: #0c03b2;
 }
 li:hover {
-  color:darkviolet;
+  color: #d61971;
 }
 a:hover {
   color:darkmagenta;
