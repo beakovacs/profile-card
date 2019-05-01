@@ -15,7 +15,7 @@ body {
 .profile-card {
   background-color: hsla(0, 0%, 100%, .5);
   width: 480px;
-  max-width: calc (100vw-10px);
+  max-width: calc(100vw-10px);
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
   border-radius: 10px;
  }
@@ -31,7 +31,7 @@ h1 {
   padding: 15px;
 }
 h2  {
-  font-size: -0,5em;
+  font-size: 1.2em;
 }
 img {
   width: 200px;
